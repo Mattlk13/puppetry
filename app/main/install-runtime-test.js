@@ -120,7 +120,8 @@ exports.installRuntimeTest = ( event, appInstallDirectory ) => {
       "cross-env@^5.2.0",
       "jest@^23.6.0",
       "puppeteer@1.11.0",
-      "shelljs@^0.8.2"
+      "shelljs@^0.8.2",
+      "faker@^4.1.0"
     ], ( err, data ) => {
       if ( err ) {
         log.error( `Main process: NPM(2): ${err}` );

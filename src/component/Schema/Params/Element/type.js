@@ -1,5 +1,5 @@
 import { justify } from "service/assert";
-import { INPUT } from "../../constants";
+import { INPUT, OPTGROUP_SELECT, SELECT, FAKER_METHODS, FAKER_LOCALES } from "../../constants";
 
 export const type = {
   template: ({ target, params }) => justify(
@@ -12,6 +12,7 @@ export const type = {
       legend: "",
       tooltip: "",
       items: [
+
         {
           name: "params.value",
           control: INPUT,
@@ -24,7 +25,46 @@ export const type = {
             message: "Text required"
           }]
         }
+
       ]
+    },
+
+    {
+
+      collapse: true,
+      inline: false,
+      legend: "Dummy data",
+      description: "Alternatively you can use methods of by "
+        + "https://github.com/marak/Faker.js to generate dummy data for the input",
+      tooltip: "",
+      items: [
+          {
+            name: "params.dummyCategory",
+            control: OPTGROUP_SELECT,
+            label: "Data generator",
+            initialValue: "",
+            onChange( value, form ) {
+              const locale = form.getFieldValue( "params.dummyLocale" );
+              form.setFieldsValue({
+                "params.value": `{{ faker.${ locale }.${ value } }}`
+              });
+            },
+            groups: Object.entries( FAKER_METHODS ).map(([ label, options ]) => ({
+              label,
+              options: options.map( description => ({
+                description,
+                value: `${ label }.${ description }`
+              }))
+            }))
+          },
+          {
+            name: "params.dummyLocale",
+            control: SELECT,
+            label: "Locale",
+            initialValue: "en",
+            options: FAKER_LOCALES
+          }
+        ]
     }
   ]
 };

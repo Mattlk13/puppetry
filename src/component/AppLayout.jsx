@@ -20,6 +20,7 @@ import { ExportProjectModal } from "./Modal/ExportProjectModal";
 import { OpenSuiteModal } from "./Modal/OpenSuiteModal";
 import { CommandModal } from "./AppLayout/Main/GroupTable/TestTable/CommandModal";
 import { InstallRuntimeTestModal } from "./Modal/InstallRuntimeTestModal";
+import { ExportTargetsModal } from "./Modal/ExportTargetsModal";
 import { TabGroup  } from "./TabGroup";
 import If from "component/Global/If";
 
@@ -176,6 +177,12 @@ export class AppLayout extends React.Component {
         <InstallRuntimeTestModal
           action={ action }
           isVisible={ store.app.installRuntimeTestModal } />
+
+        <ExportTargetsModal
+          isVisible={ store.app.exportTargetsModal }
+          targets={ store.suite.targets }
+          action={ action }
+          />
 
 
       </ErrorBoundary>

@@ -53,6 +53,11 @@ export class TargetTable extends AbstractEditableTable {
     return "model--target " + this.getRightClickClassName( record );
   }
 
+  onShowExportTargets = ( e ) => {
+    e.preventDefault();
+    this.props.action.updateApp({ exportTargetsModal: true });
+  }
+
   fields = [ "target", "selector" ];
 
   model = "Target";
@@ -62,6 +67,9 @@ export class TargetTable extends AbstractEditableTable {
     return (
       <div className="box-margin-vertical">
         <ErrorBoundary>
+        <p>
+          You can also find it useful to <a href="#" onClick={ this.onShowExportTargets }>edit targets as CSV</a>
+        </p>
           <Table
             id="cTargetTable"
             className="draggable-table"

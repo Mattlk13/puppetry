@@ -118,7 +118,6 @@ export class CommandForm extends React.Component {
             assert: {},
             ...record
           };
-
     return (
       <ErrorBoundary>
         <Form onSubmit={this.handleSubmit} className="command-form" id="cCommandForm">

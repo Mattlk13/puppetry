@@ -21,7 +21,7 @@ const DEFAULT_STATE = {
     selectedFile: "",
     confirmSaveChangesFile: "",
 
-
+    exportTargetsModal: false,
     newProjectModal: false,
     openProjectModal: false,
     saveSuiteAsModal: false,

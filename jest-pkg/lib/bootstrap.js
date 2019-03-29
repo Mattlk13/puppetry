@@ -215,9 +215,15 @@ expect.extend({
 
 });
 
+
+function randomInt( max ) {
+  return Math.floor( Math.random() * Math.floor( max ) );
+}
+
 module.exports = ( ns = null ) => ({
   bs,
   png: ( ns ? makePng( ns ) : png ),
   query,
-  makePng
+  makePng,
+  randomInt
 });

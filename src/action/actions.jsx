@@ -23,102 +23,104 @@ const STORAGE_KEY_SETTINGS = "settings",
 
       actions = createActions({
 
-        SET_SETTINGS: ( options ) => options,
+      SET_SETTINGS: ( options ) => options,
 
-        SET_ERROR: ( options ) => validate( "errorOptions", options ),
+      CLEAR_TARGET: ( options ) => options,
 
-        /**
-         * @param {object} options = { loading, newProjectModal, testReportModal, project }
-         * @returns {object}
-         */
-        UPDATE_APP: ( options ) => validate( "updateAppOptions", options ),
+      SET_ERROR: ( options ) => validate( "errorOptions", options ),
 
-        ADD_APP_TAB: ( tabKey ) => validatePlain( "appTabKey", tabKey ),
+      /**
+       * @param {object} options = { loading, newProjectModal, testReportModal, project }
+       * @returns {object}
+       */
+      UPDATE_APP: ( options ) => validate( "updateAppOptions", options ),
 
-        REMOVE_APP_TAB: ( tabKey ) => validatePlain( "appTabKey", tabKey ),
+      ADD_APP_TAB: ( tabKey ) => validatePlain( "appTabKey", tabKey ),
 
-        SET_APP_TAB: ( tabKey ) => tabKey,
+      REMOVE_APP_TAB: ( tabKey ) => validatePlain( "appTabKey", tabKey ),
 
-        SET_PROJECT: ( options ) => options,
+      SET_APP_TAB: ( tabKey ) => tabKey,
 
-        SET_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
+      SET_PROJECT: ( options ) => options,
 
-        RESET_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
+      SET_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
 
-        SWAP_TARGET: ( options ) => validate( "swapTargetOptions", options ),
+      RESET_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
 
-        SWAP_COMMAND: ( options ) => validate( "swapCommandOptions", options ),
+      SWAP_TARGET: ( options ) => validate( "swapTargetOptions", options ),
 
-        SWAP_TEST: ( options ) => validate( "swapTestOptions", options ),
+      SWAP_COMMAND: ( options ) => validate( "swapCommandOptions", options ),
 
-        SWAP_GROUP: ( options ) => validate( "swapGroupOptions", options ),
+      SWAP_TEST: ( options ) => validate( "swapTestOptions", options ),
 
-        /**
-         * @param {object} options = { title, editing }
-         * @returns {object}
-         */
-        UPDATE_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
-        /**
-         * @param {object} options = { target, selector, editing }
-         * @returns {object}
-         */
-        ADD_TARGET: ( options ) => validate( "addTargetOptions", options ),
-        /**
-         * @param {object} options = { id, target, selector, editing }
-         * @returns {object}
-         */
-        UPDATE_TARGET: ( options ) => validate( "updateTargetOptions", options ),
-        /**
-         * @param {object} options = { id }
-         * @returns {object}
-         */
-        REMOVE_TARGET: ( options ) => validate( "removeOptions", options ),
-        /**
-         * @param {object} options = { title, editing }
-         * @returns {object}
-         */
-        ADD_GROUP: ( options ) => validate( "addGroupOptions", options ),
-        /**
-         * @param {object} options = { id, title, editing }
-         * @returns {object}
-         */
-        UPDATE_GROUP: ( options ) => validate( "updateGroupOptions", options ),
-        /**
-         * @param {object} options = { id }
-         * @returns {object}
-         */
-        REMOVE_GROUP: ( options ) => validate( "removeOptions", options ),
-        /**
-         * @param {object} options = { groupId, title, editing }
-         * @returns {object}
-         */
-        ADD_TEST: ( options ) => validate( "addTestOptions", options ),
-        /**
-         * @param {object} options = { groupId, id, title, editing }
-         * @returns {object}
-         */
-        UPDATE_TEST: ( options ) => validate( "updateTestOptions", options ),
-        /**
-         * @param {object} options = { groupId, id }
-         * @returns {object}
-         */
-        REMOVE_TEST: ( options ) => validate( "removeTestOptions", options ),
-        /**
-         * @param {object} options = { testId, groupId, target, method, editing }
-         * @returns {object}
-         */
-        ADD_COMMAND: ( options ) => validate( "addCommandOptions", options ),
-        /**
-         * @param {object} options = { testId, groupId, id, target, method, editing }
-         * @returns {object}
-         */
-        UPDATE_COMMAND: ( options ) => validate( "updateCommandOptions", options ),
-        /**
-         * @param {object} options = { testId, groupId, id }
-         * @returns {object}
-         */
-        REMOVE_COMMAND: ( options ) => validate( "removeCommandOptions", options )
-      });
+      SWAP_GROUP: ( options ) => validate( "swapGroupOptions", options ),
+
+      /**
+       * @param {object} options = { title, editing }
+       * @returns {object}
+       */
+      UPDATE_SUITE: ( options ) => validate( "updateSuiteOptions", options ),
+      /**
+       * @param {object} options = { target, selector, editing }
+       * @returns {object}
+       */
+      ADD_TARGET: ( options ) => validate( "addTargetOptions", options ),
+      /**
+       * @param {object} options = { id, target, selector, editing }
+       * @returns {object}
+       */
+      UPDATE_TARGET: ( options ) => validate( "updateTargetOptions", options ),
+      /**
+       * @param {object} options = { id }
+       * @returns {object}
+       */
+      REMOVE_TARGET: ( options ) => validate( "removeOptions", options ),
+      /**
+       * @param {object} options = { title, editing }
+       * @returns {object}
+       */
+      ADD_GROUP: ( options ) => validate( "addGroupOptions", options ),
+      /**
+       * @param {object} options = { id, title, editing }
+       * @returns {object}
+       */
+      UPDATE_GROUP: ( options ) => validate( "updateGroupOptions", options ),
+      /**
+       * @param {object} options = { id }
+       * @returns {object}
+       */
+      REMOVE_GROUP: ( options ) => validate( "removeOptions", options ),
+      /**
+       * @param {object} options = { groupId, title, editing }
+       * @returns {object}
+       */
+      ADD_TEST: ( options ) => validate( "addTestOptions", options ),
+      /**
+       * @param {object} options = { groupId, id, title, editing }
+       * @returns {object}
+       */
+      UPDATE_TEST: ( options ) => validate( "updateTestOptions", options ),
+      /**
+       * @param {object} options = { groupId, id }
+       * @returns {object}
+       */
+      REMOVE_TEST: ( options ) => validate( "removeTestOptions", options ),
+      /**
+       * @param {object} options = { testId, groupId, target, method, editing }
+       * @returns {object}
+       */
+      ADD_COMMAND: ( options ) => validate( "addCommandOptions", options ),
+      /**
+       * @param {object} options = { testId, groupId, id, target, method, editing }
+       * @returns {object}
+       */
+      UPDATE_COMMAND: ( options ) => validate( "updateCommandOptions", options ),
+      /**
+       * @param {object} options = { testId, groupId, id }
+       * @returns {object}
+       */
+      REMOVE_COMMAND: ( options ) => validate( "removeCommandOptions", options )
+    });
 
 /**
  * Thunk actions
