@@ -1,8 +1,15 @@
 {
   "name": "Test Project",
-  "panels": [
-    "groups"
-  ],
+  "appPanels": {
+    "suite": {
+      "panes": [
+        "groups"
+      ]
+    },
+    "settings": {
+      "panes": []
+    }
+  },
   "groups": {
     "_1": {
       "key": 0,
@@ -19,16 +26,16 @@
       }
     },
     "_2": {
-      "key": 1,
+      "key": "_2",
       "value": true,
       "tests": {
-        "olhjnyhrjcg": {
-          "key": "olhjnyhrjcg",
+        "_2_1": {
+          "key": "_2_1",
           "value": true
         },
-        "_2_1": {
-          "key": 0,
-          "value": true
+        "3j3jvnxjknu": {
+          "key": "3j3jvnxjknu",
+          "value": false
         }
       }
     },
@@ -45,9 +52,37 @@
           "value": false
         }
       }
+    },
+    "3j3jvnxgvxs": {
+      "key": "3j3jvnxgvxs",
+      "value": true,
+      "tests": {
+        "3j3jvnxgvxt": {
+          "key": "3j3jvnxgvxt",
+          "value": true
+        }
+      }
     }
   },
+  "savedAt": 1557849089,
   "modified": false,
   "lastOpenSuite": "all-methods.json",
-  "puppetry": "1.0.4"
+  "git": {
+    "initialized": false,
+    "commitedAt": 1556897243,
+    "hasRemote": true,
+    "remoteRepository": "https://sheiko@bitbucket.org/sheiko/tutorial.git",
+    "configUsername": "Samwell Tarly",
+    "configEmail": "starly@example.com",
+    "credentialsAuthMethod": "password",
+    "credentialsAcccessToken": "HyJMQv938kxY8zKaGsUd\"",
+    "credentialsProvider": "",
+    "credentialsUsername": "sheiko",
+    "credentialsPassword": "Aninel8673"
+  },
+  "panels": [
+    "groups"
+  ],
+  "puppetry": "2.0.0-aplha.2",
+  "projectDirectory": "/home/sheiko/.config/puppetry/project-demo"
 }

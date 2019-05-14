@@ -1,72 +1,428 @@
 {
   "title": "All available methods",
   "timeout": 50000,
-  "savedAt": "2018-12-11T09:45:43.656Z",
-  "loadedAt": "2018-12-11T09:30:50.813Z",
-  "modified": false,
+  "savedAt": 1557848732,
+  "loadedAt": 1557848931,
+  "modified": true,
   "filename": "all-methods.json",
   "targets": {
-    "_1": {
+    "3rmjvnyp6iv": {
       "editing": false,
-      "id": "_1",
-      "key": 0,
+      "id": "3rmjvnyp6iv",
+      "key": "3rmjvnyp6iv",
       "target": "EMAIL_INPUT",
       "selector": "input[name=email]",
-      "title": ""
+      "disabled": false,
+      "adding": false
     },
-    "_2": {
+    "3rmjvnyp6iw": {
       "editing": false,
-      "id": "_2",
-      "key": 1,
+      "id": "3rmjvnyp6iw",
+      "key": "3rmjvnyp6iw",
       "target": "VAT_INPUT",
       "selector": "input[name=vatId]",
-      "title": ""
+      "disabled": false,
+      "adding": false
     },
-    "_4": {
+    "3rmjvnyp6ix": {
       "editing": false,
-      "id": "_4",
-      "key": 3,
+      "id": "3rmjvnyp6ix",
+      "key": "3rmjvnyp6ix",
       "target": "FNAME_INPUT",
       "selector": "//*[@id=\"firstNameInput\"]",
-      "title": ""
+      "disabled": false,
+      "adding": false
     },
-    "_5": {
+    "3rmjvnyp6iy": {
       "editing": false,
-      "id": "_5",
-      "key": 4,
+      "id": "3rmjvnyp6iy",
+      "key": "3rmjvnyp6iy",
       "target": "DAY_SELECT",
       "selector": "[name=day]",
-      "title": ""
+      "disabled": false,
+      "adding": false
     },
-    "_7": {
+    "3rmjvnyp6iz": {
       "editing": false,
-      "id": "_7",
-      "key": 6,
+      "id": "3rmjvnyp6iz",
+      "key": "3rmjvnyp6iz",
       "target": "MONTH_SELECT",
       "selector": "[name=month]",
-      "title": ""
+      "disabled": false,
+      "adding": false
     },
-    "_3": {
+    "3rmjvnyp6j0": {
       "editing": false,
-      "id": "_3",
-      "key": 2,
+      "id": "3rmjvnyp6j0",
+      "key": "3rmjvnyp6j0",
       "target": "SUBMIT_BTN",
       "selector": "button[type=submit]",
-      "title": ""
+      "disabled": false,
+      "adding": false
+    },
+    "3rmjvnyp6j1": {
+      "editing": false,
+      "id": "3rmjvnyp6j1",
+      "key": "3rmjvnyp6j1",
+      "target": "INPUT_CHECKBOX",
+      "selector": "#exampleCheck1",
+      "disabled": false,
+      "adding": false
+    },
+    "3rmjvnyp6j2": {
+      "editing": false,
+      "id": "3rmjvnyp6j2",
+      "key": "3rmjvnyp6j2",
+      "target": "INPUT_RADIO",
+      "selector": "#exampleCheck1",
+      "disabled": false,
+      "adding": false
+    },
+    "3rmjvnyp6j3": {
+      "editing": false,
+      "id": "3rmjvnyp6j3",
+      "key": "3rmjvnyp6j3",
+      "target": "INPUT_FILE",
+      "selector": "#fileInput",
+      "disabled": false,
+      "adding": false
+    },
+    "3zvjvnyqjp4": {
+      "id": "3zvjvnyqjp4",
+      "editing": false,
+      "target": "FORM",
+      "selector": "#myform",
+      "key": "3zvjvnyqjp4"
     }
   },
   "groups": {
     "_2": {
       "editing": false,
       "id": "_2",
-      "key": 1,
-      "title": "Form initialization",
+      "key": "_2",
+      "title": "Crash test",
       "tests": {
+        "3j3jvnxjknu": {
+          "editing": false,
+          "id": "3j3jvnxjknu",
+          "key": "3j3jvnxjknu",
+          "title": "page methods",
+          "commands": {
+            "3j3jvnxkzyc": {
+              "editing": false,
+              "id": "3j3jvnxkzyc",
+              "key": "3j3jvnxkzyc",
+              "target": "page",
+              "method": "goto",
+              "params": {
+                "url": "https://dsheiko.github.io/react-html5-form/",
+                "timeout": 30000,
+                "waitUntil": "load"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny2nwb": {
+              "editing": false,
+              "id": "3rmjvny2nwb",
+              "key": "3rmjvny2nwb",
+              "target": "page",
+              "method": "click",
+              "assert": "",
+              "params": {
+                "x": 10,
+                "y": 10,
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "9hnjnx8celp": {
+              "editing": false,
+              "id": "9hnjnx8celp",
+              "key": "9hnjnx8celp",
+              "target": "page",
+              "method": "emulate",
+              "params": {
+                "device": "Blackberry PlayBook landscape"
+              },
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3rmjvny0d0w": {
+              "editing": false,
+              "id": "3rmjvny0d0w",
+              "key": "3rmjvny0d0w",
+              "target": "page",
+              "method": "evaluate",
+              "params": {
+                "value": "document.body.classList.add( \"foo\" );"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny1ajq": {
+              "editing": false,
+              "id": "3rmjvny1ajq",
+              "key": "3rmjvny1ajq",
+              "target": "page",
+              "method": "moveMouse",
+              "params": {
+                "x": 10,
+                "y": 10
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny3y0o": {
+              "editing": false,
+              "id": "3rmjvny3y0o",
+              "key": "3rmjvny3y0o",
+              "target": "page",
+              "method": "press",
+              "params": {
+                "key": "D",
+                "modifierKey1": "Meta",
+                "modifierKey2": "ShiftRight",
+                "modifierKey3": "Alt"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny5fw4": {
+              "editing": false,
+              "id": "3rmjvny5fw4",
+              "key": "3rmjvny5fw4",
+              "target": "page",
+              "method": "reload",
+              "params": {
+                "timeout": 30000,
+                "waitUntil": "load"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny60in": {
+              "editing": false,
+              "id": "3rmjvny60in",
+              "key": "3rmjvny60in",
+              "target": "page",
+              "method": "runjs",
+              "params": {
+                "value": "console.log(\"-----\");"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvnxyr92": {
+              "editing": false,
+              "id": "3rmjvnxyr92",
+              "key": "3rmjvnxyr92",
+              "target": "page",
+              "method": "screenshot",
+              "params": {
+                "name": "Just for test",
+                "fullPage": true,
+                "omitBackground": true
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3pljvnxoll7": {
+              "editing": false,
+              "id": "3pljvnxoll7",
+              "key": "3pljvnxoll7",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": 1228,
+                "height": 1024,
+                "isMobile": true,
+                "hasTouch": true,
+                "isLandscape": true
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3pljvnxpsyu": {
+              "editing": false,
+              "id": "3pljvnxpsyu",
+              "key": "3pljvnxpsyu",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": 1280,
+                "height": 600,
+                "deviceScaleFactor": 2,
+                "isMobile": false,
+                "hasTouch": false,
+                "isLandscape": false
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3pljvnxtatc": {
+              "editing": false,
+              "id": "3pljvnxtatc",
+              "key": "3pljvnxtatc",
+              "target": "page",
+              "method": "scroll",
+              "params": {
+                "x": 0,
+                "y": 900
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny81k5": {
+              "editing": false,
+              "id": "3rmjvny81k5",
+              "key": "3rmjvny81k5",
+              "target": "page",
+              "method": "tap",
+              "params": {
+                "x": 10,
+                "y": 10
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvnxzh1f": {
+              "editing": false,
+              "id": "3rmjvnxzh1f",
+              "key": "3rmjvnxzh1f",
+              "target": "page",
+              "method": "waitFor",
+              "params": {
+                "value": 10
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny2an4": {
+              "editing": false,
+              "id": "3rmjvny2an4",
+              "key": "3rmjvny2an4",
+              "target": "page",
+              "method": "assertTitle",
+              "assert": {
+                "assertion": "contains",
+                "type": "string",
+                "value": "Demo"
+              },
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny93eh": {
+              "editing": false,
+              "id": "3rmjvny93eh",
+              "key": "3rmjvny93eh",
+              "target": "page",
+              "method": "assertContent",
+              "assert": {
+                "assertion": "contains",
+                "type": "string",
+                "value": "demo"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvny9twh": {
+              "editing": false,
+              "id": "3rmjvny9twh",
+              "key": "3rmjvny9twh",
+              "target": "page",
+              "method": "assertNodeCount",
+              "assert": {
+                "assertion": "number",
+                "operator": "gt",
+                "value": 1
+              },
+              "params": {
+                "selector": "input"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvnyb2oe": {
+              "editing": false,
+              "id": "3rmjvnyb2oe",
+              "key": "3rmjvnyb2oe",
+              "target": "page",
+              "method": "assertScroll",
+              "assert": {
+                "assertion": "number",
+                "operator": "lt",
+                "value": 10000
+              },
+              "params": {
+                "direction": "horizontally"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "3rmjvnyc2vd": {
+              "editing": false,
+              "id": "3rmjvnyc2vd",
+              "key": "3rmjvnyc2vd",
+              "target": "page",
+              "method": "assertUrl",
+              "assert": {
+                "assertion": "equals",
+                "type": "string",
+                "value": "https://dsheiko.github.io/react-html5-form/"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            }
+          },
+          "disabled": false,
+          "groupId": "_2"
+        },
         "_2_1": {
           "editing": false,
           "id": "_2_1",
-          "key": 0,
-          "title": "represents valid state",
+          "key": "_2_1",
+          "title": "target methods",
           "commands": {
             "_2_1_2": {
               "editing": false,
@@ -82,116 +438,161 @@
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "9hnjnx8celp": {
-              "editing": false,
-              "id": "9hnjnx8celp",
-              "key": "9hnjnx8celp",
-              "target": "page",
-              "method": "emulate",
+            "3zvjvnyzmgn": {
+              "editing": true,
+              "id": "3zvjvnyzmgn",
+              "key": "3zvjvnyzmgn",
+              "target": "INPUT_CHECKBOX",
+              "method": "checkBox",
               "params": {
-                "device": "Blackberry PlayBook landscape"
+                "checked": true
               },
+              "disabled": false,
+              "failure": "",
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "_2_1_1": {
-              "editing": false,
-              "id": "_2_1_1",
-              "key": 0,
-              "target": "page",
-              "method": "setViewport",
-              "params": {
-                "width": 1280,
-                "height": 1024
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3qqjoy6zm34": {
-              "editing": false,
-              "id": "3qqjoy6zm34",
-              "key": "3qqjoy6zm34",
-              "target": "page",
+            "3rmjvnyk1zv": {
+              "editing": true,
+              "id": "3rmjvnyk1zv",
+              "key": "3rmjvnyk1zv",
+              "target": "SUBMIT_BTN",
               "method": "click",
               "params": {
-                "x": 10,
-                "y": 10,
                 "button": "left",
                 "clickCount": 1,
                 "delay": 0
               },
               "disabled": false,
+              "failure": "",
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "_2_1_3": {
-              "editing": false,
-              "id": "_2_1_3",
-              "key": 2,
-              "target": "page",
-              "method": "screenshot",
+            "3rmjvnykt84": {
+              "editing": true,
+              "id": "3rmjvnykt84",
+              "key": "3rmjvnykt84",
+              "target": "EMAIL_INPUT",
+              "method": "focus",
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3rmjvnyl86i": {
+              "editing": true,
+              "id": "3rmjvnyl86i",
+              "key": "3rmjvnyl86i",
+              "target": "SUBMIT_BTN",
+              "method": "hover",
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3rmjvnymbzy": {
+              "editing": true,
+              "id": "3rmjvnymbzy",
+              "key": "3rmjvnymbzy",
+              "target": "EMAIL_INPUT",
+              "method": "reset",
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3zvjvnyr487": {
+              "editing": true,
+              "id": "3zvjvnyr487",
+              "key": "3zvjvnyr487",
+              "target": "FORM",
+              "method": "scroll",
               "params": {
-                "name": "Form initially in valid state",
-                "fullPage": true,
-                "omitBackground": true
+                "x": 100,
+                "y": 100
               },
+              "disabled": false,
+              "failure": "",
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "9yajnx9jctd": {
-              "editing": false,
-              "id": "9yajnx9jctd",
-              "key": "9yajnx9jctd",
-              "target": "page",
-              "method": "waitFor",
+            "3zvjvnys6xv": {
+              "editing": true,
+              "id": "3zvjvnys6xv",
+              "key": "3zvjvnys6xv",
+              "target": "DAY_SELECT",
+              "method": "select",
               "params": {
-                "value": 12
+                "value": "10"
               },
+              "disabled": false,
+              "failure": "",
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "9yajnx9kld5": {
+            "lwwjpdqhytm": {
               "editing": false,
-              "id": "9yajnx9kld5",
-              "key": "9yajnx9kld5",
-              "target": "page",
-              "method": "assertContent",
-              "assert": {
-                "assertion": "contains",
-                "type": "string",
-                "value": "REACT-HTML5-FORM DEMO"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "a61jnx9qz1r": {
-              "editing": false,
-              "id": "a61jnx9qz1r",
-              "key": "a61jnx9qz1r",
-              "target": "page",
-              "method": "assertNodeCount",
-              "assert": {
-                "assertion": "number",
-                "operator": "gt",
-                "value": 1
-              },
+              "id": "lwwjpdqhytm",
+              "key": "lwwjpdqhytm",
+              "target": "SUBMIT_BTN",
+              "method": "setAttribute",
               "params": {
-                "selector": "input"
+                "name": "disabled",
+                "value": "true"
+              },
+              "disabled": false,
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3zvjvnyvb2s": {
+              "editing": true,
+              "id": "3zvjvnyvb2s",
+              "key": "3zvjvnyvb2s",
+              "target": "SUBMIT_BTN",
+              "method": "tap",
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "3zvjvnyvrxi": {
+              "editing": true,
+              "id": "3zvjvnyvrxi",
+              "key": "3zvjvnyvrxi",
+              "target": "EMAIL_INPUT",
+              "method": "toggleClass",
+              "params": {
+                "name": ".has-error",
+                "toggle": "add"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
+            "bfjjnxbb475": {
+              "editing": false,
+              "id": "bfjjnxbb475",
+              "key": "bfjjnxbb475",
+              "target": "EMAIL_INPUT",
+              "method": "type",
+              "params": {
+                "value": "aa@aa.com"
               },
               "groupId": "_2",
               "testId": "_2_1"
             },
-            "aakjnxa1nt9": {
-              "editing": false,
-              "id": "aakjnxa1nt9",
-              "key": "aakjnxa1nt9",
-              "target": "page",
-              "method": "assertTitle",
-              "assert": {
-                "assertion": "contains",
-                "type": "string",
-                "value": "Demo"
+            "3zvjvnyxk5x": {
+              "editing": true,
+              "id": "3zvjvnyxk5x",
+              "key": "3zvjvnyxk5x",
+              "target": "INPUT_FILE",
+              "method": "upload",
+              "params": {
+                "path": "/home/sheiko/Sites/os/puppetry/CHANGELOG.md"
               },
+              "disabled": false,
+              "failure": "",
               "groupId": "_2",
               "testId": "_2_1"
             },
@@ -290,6 +691,25 @@
               "groupId": "_2",
               "testId": "_2_1"
             },
+            "43gjvnz3w6a": {
+              "editing": true,
+              "id": "43gjvnz3w6a",
+              "key": "43gjvnz3w6a",
+              "target": "FORM",
+              "method": "assertScroll",
+              "assert": {
+                "assertion": "number",
+                "operator": "lt",
+                "value": 10000
+              },
+              "params": {
+                "direction": "horizontally"
+              },
+              "disabled": false,
+              "failure": "",
+              "groupId": "_2",
+              "testId": "_2_1"
+            },
             "4s6jnx131jn": {
               "editing": false,
               "id": "4s6jnx131jn",
@@ -319,336 +739,6 @@
               },
               "groupId": "_2",
               "testId": "_2_1"
-            },
-            "bfjjnxbb475": {
-              "editing": false,
-              "id": "bfjjnxbb475",
-              "key": "bfjjnxbb475",
-              "target": "EMAIL_INPUT",
-              "method": "type",
-              "params": {
-                "value": "aa@aa.com"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbbs4i": {
-              "editing": false,
-              "id": "bfjjnxbbs4i",
-              "key": "bfjjnxbbs4i",
-              "target": "DAY_SELECT",
-              "method": "select",
-              "params": {
-                "value": "..."
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbcskf": {
-              "editing": false,
-              "id": "bfjjnxbcskf",
-              "key": "bfjjnxbcskf",
-              "target": "FNAME_INPUT",
-              "method": "focus",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbd548": {
-              "editing": false,
-              "id": "bfjjnxbd548",
-              "key": "bfjjnxbd548",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "fname focused",
-                "fullPage": false,
-                "omitBackground": false
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbdkzj": {
-              "editing": false,
-              "id": "bfjjnxbdkzj",
-              "key": "bfjjnxbdkzj",
-              "target": "SUBMIT_BTN",
-              "method": "hover",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbe73o": {
-              "editing": false,
-              "id": "bfjjnxbe73o",
-              "key": "bfjjnxbe73o",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "submit hovered",
-                "fullPage": false,
-                "omitBackground": false
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxberkk": {
-              "editing": false,
-              "id": "bfjjnxberkk",
-              "key": "bfjjnxberkk",
-              "target": "SUBMIT_BTN",
-              "method": "click",
-              "params": {
-                "button": "left",
-                "clickCount": 1,
-                "delay": 0
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxbf2pl": {
-              "editing": false,
-              "id": "bfjjnxbf2pl",
-              "key": "bfjjnxbf2pl",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "page submitted",
-                "fullPage": false,
-                "omitBackground": false
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "lwwjpdqhytm": {
-              "editing": false,
-              "id": "lwwjpdqhytm",
-              "key": "lwwjpdqhytm",
-              "target": "SUBMIT_BTN",
-              "method": "setAttribute",
-              "params": {
-                "name": "disabled",
-                "value": "true"
-              },
-              "disabled": false,
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "lwwjpdqjdc2": {
-              "editing": false,
-              "id": "lwwjpdqjdc2",
-              "key": "lwwjpdqjdc2",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "btn disabled now",
-                "fullPage": true,
-                "omitBackground": true
-              },
-              "disabled": false,
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "lwwjpdqjr9x": {
-              "editing": false,
-              "id": "lwwjpdqjr9x",
-              "key": "lwwjpdqjr9x",
-              "target": "SUBMIT_BTN",
-              "method": "setAttribute",
-              "params": {
-                "name": "disabled",
-                "value": "false"
-              },
-              "disabled": false,
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "lwwjpdqkcpx": {
-              "editing": false,
-              "id": "lwwjpdqkcpx",
-              "key": "lwwjpdqkcpx",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "btn not disabled now",
-                "fullPage": true,
-                "omitBackground": true
-              },
-              "disabled": false,
-              "groupId": "_2",
-              "testId": "_2_1"
-            }
-          },
-          "groupId": "_2"
-        },
-        "cmqjnxdjk90": {
-          "editing": false,
-          "id": "cmqjnxdjk90",
-          "key": "cmqjnxdjk90",
-          "title": "foo \"22\"",
-          "commands": {
-            "fosjo5t61po": {
-              "editing": false,
-              "id": "fosjo5t61po",
-              "key": "fosjo5t61po",
-              "target": "page",
-              "method": "goto",
-              "params": {
-                "url": "https://dsheiko.github.io/react-html5-form/",
-                "timeout": 30000,
-                "waitUntil": "load"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "fosjo5t4khr": {
-              "editing": false,
-              "id": "fosjo5t4khr",
-              "key": "fosjo5t4khr",
-              "target": "EMAIL_INPUT",
-              "method": "toggleClass",
-              "params": {
-                "name": "is-marked",
-                "toggle": "add"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "fosjo5t6jbr": {
-              "editing": false,
-              "id": "fosjo5t6jbr",
-              "key": "fosjo5t6jbr",
-              "target": "EMAIL_INPUT",
-              "method": "assertContainsClass",
-              "assert": {
-                "assertion": "boolean",
-                "value": true
-              },
-              "params": {
-                "name": "form-control"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "g8cjo5tl6kc": {
-              "editing": false,
-              "id": "g8cjo5tl6kc",
-              "key": "g8cjo5tl6kc",
-              "target": "EMAIL_INPUT",
-              "method": "assertContainsClass",
-              "assert": {
-                "assertion": "boolean",
-                "value": true
-              },
-              "params": {
-                "name": "is-marked"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "j9ujoe3gtyk": {
-              "editing": false,
-              "id": "j9ujoe3gtyk",
-              "key": "j9ujoe3gtyk",
-              "target": "page",
-              "method": "press",
-              "params": {
-                "key": "b",
-                "modifierKey1": "Shift",
-                "modifierKey2": "Control",
-                "modifierKey3": ""
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "k1qjoe59xax": {
-              "editing": false,
-              "id": "k1qjoe59xax",
-              "key": "k1qjoe59xax",
-              "target": "page",
-              "method": "press",
-              "params": {
-                "key": "Enter",
-                "modifierKey1": "",
-                "modifierKey2": "",
-                "modifierKey3": ""
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "dcrjoeb450k": {
-              "editing": false,
-              "id": "dcrjoeb450k",
-              "key": "dcrjoeb450k",
-              "target": "page",
-              "method": "scroll",
-              "params": {
-                "x": 0,
-                "y": 300
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "dcrjoeb4uis": {
-              "editing": false,
-              "id": "dcrjoeb4uis",
-              "key": "dcrjoeb4uis",
-              "target": "EMAIL_INPUT",
-              "method": "scroll",
-              "params": {
-                "x": 10,
-                "y": 0
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "ggcjoeennsg": {
-              "editing": false,
-              "id": "ggcjoeennsg",
-              "key": "ggcjoeennsg",
-              "target": "page",
-              "method": "waitForSelector",
-              "params": {
-                "value": "div",
-                "visible": "off",
-                "hidden": "off",
-                "timeout": 30000
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "j9njoeinam5": {
-              "editing": false,
-              "id": "j9njoeinam5",
-              "key": "j9njoeinam5",
-              "target": "EMAIL_INPUT",
-              "method": "assertScroll",
-              "assert": {
-                "assertion": "number",
-                "operator": "lt",
-                "value": 10
-              },
-              "params": {
-                "direction": "horizontally"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90"
-            },
-            "jdujoej2992": {
-              "editing": false,
-              "id": "jdujoej2992",
-              "key": "jdujoej2992",
-              "target": "page",
-              "method": "assertScroll",
-              "assert": {
-                "assertion": "number",
-                "operator": "gt",
-                "value": 122
-              },
-              "params": {
-                "direction": "vertically"
-              },
-              "groupId": "_2",
-              "testId": "cmqjnxdjk90",
-              "disabled": true
             }
           },
           "groupId": "_2"
@@ -656,5 +746,5 @@
       }
     }
   },
-  "puppetry": "1.0.4"
+  "puppetry": "2.0.0-aplha.2"
 }
