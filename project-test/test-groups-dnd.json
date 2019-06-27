@@ -2,7 +2,7 @@
   "title": "Drag and droop on test groups/test/commands",
   "timeout": 50000,
   "savedAt": "2018-11-16T12:06:41.161Z",
-  "loadedAt": "2018-11-26T08:58:33.110Z",
+  "loadedAt": 1561648744,
   "modified": false,
   "filename": "test-groups-dnd.json",
   "targets": {
@@ -184,5 +184,6 @@
       }
     }
   },
-  "puppetry": "1.0.0"
+  "puppetry": "2.0.0-RC.1",
+  "snippets": false
 }
