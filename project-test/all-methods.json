@@ -1,8 +1,8 @@
 {
   "title": "All available methods",
   "timeout": 50000,
-  "savedAt": 1557848732,
-  "loadedAt": 1557848931,
+  "savedAt": 1561637426,
+  "loadedAt": 1561643196,
   "modified": true,
   "filename": "all-methods.json",
   "targets": {
@@ -108,10 +108,10 @@
           "key": "3j3jvnxjknu",
           "title": "page methods",
           "commands": {
-            "3j3jvnxkzyc": {
-              "editing": false,
-              "id": "3j3jvnxkzyc",
-              "key": "3j3jvnxkzyc",
+            "2bwjxefkjwy": {
+              "editing": true,
+              "id": "2bwjxefkjwy",
+              "key": "2bwjxefkjwy",
               "target": "page",
               "method": "goto",
               "params": {
@@ -121,90 +121,187 @@
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny2nwb": {
+            "2bwjxefledm": {
+              "editing": true,
+              "id": "2bwjxefledm",
+              "key": "2bwjxefledm",
+              "target": "page",
+              "method": "emulate",
+              "params": {
+                "device": "Galaxy Note 3 landscape"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxehyk2r": {
               "editing": false,
-              "id": "3rmjvny2nwb",
-              "key": "3rmjvny2nwb",
+              "id": "2bwjxehyk2r",
+              "key": "2bwjxehyk2r",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": 1440,
+                "height": 900,
+                "deviceScaleFactor": 2,
+                "isMobile": true,
+                "hasTouch": true,
+                "isLandscape": true
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxeihan2": {
+              "editing": true,
+              "id": "eewjxeihan2",
+              "key": "eewjxeihan2",
+              "target": "page",
+              "method": "screenshot",
+              "params": {
+                "name": "Screenshot 1",
+                "fullPage": true,
+                "omitBackground": true
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxehzu94": {
+              "editing": false,
+              "id": "2bwjxehzu94",
+              "key": "2bwjxehzu94",
               "target": "page",
               "method": "click",
-              "assert": "",
               "params": {
-                "x": 10,
-                "y": 10,
+                "x": 1,
+                "y": 1,
                 "button": "left",
-                "clickCount": 1,
+                "clickCount": 2,
                 "delay": 0
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "9hnjnx8celp": {
+            "2bwjxei0rep": {
               "editing": false,
-              "id": "9hnjnx8celp",
-              "key": "9hnjnx8celp",
-              "target": "page",
-              "method": "emulate",
-              "params": {
-                "device": "Blackberry PlayBook landscape"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3rmjvny0d0w": {
-              "editing": false,
-              "id": "3rmjvny0d0w",
-              "key": "3rmjvny0d0w",
-              "target": "page",
-              "method": "evaluate",
-              "params": {
-                "value": "document.body.classList.add( \"foo\" );"
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvny1ajq": {
-              "editing": false,
-              "id": "3rmjvny1ajq",
-              "key": "3rmjvny1ajq",
+              "id": "2bwjxei0rep",
+              "key": "2bwjxei0rep",
               "target": "page",
               "method": "moveMouse",
               "params": {
-                "x": 10,
-                "y": 10
+                "x": 100,
+                "y": 100
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny3y0o": {
+            "2bwjxei1b5j": {
               "editing": false,
-              "id": "3rmjvny3y0o",
-              "key": "3rmjvny3y0o",
+              "id": "2bwjxei1b5j",
+              "key": "2bwjxei1b5j",
+              "target": "page",
+              "method": "tap",
+              "params": {
+                "x": 100,
+                "y": 100
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxei1wzj": {
+              "editing": false,
+              "id": "2bwjxei1wzj",
+              "key": "2bwjxei1wzj",
               "target": "page",
               "method": "press",
               "params": {
-                "key": "D",
-                "modifierKey1": "Meta",
-                "modifierKey2": "ShiftRight",
-                "modifierKey3": "Alt"
+                "key": "p",
+                "modifierKey1": "Alt",
+                "modifierKey2": "Control",
+                "modifierKey3": "Shift"
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny5fw4": {
+            "2bwjxei3hue": {
               "editing": false,
-              "id": "3rmjvny5fw4",
-              "key": "3rmjvny5fw4",
+              "id": "2bwjxei3hue",
+              "key": "2bwjxei3hue",
+              "target": "page",
+              "method": "scroll",
+              "params": {
+                "x": 100,
+                "y": 100
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxei3vik": {
+              "editing": false,
+              "id": "2bwjxei3vik",
+              "key": "2bwjxei3vik",
               "target": "page",
               "method": "reload",
               "params": {
@@ -213,195 +310,223 @@
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny60in": {
+            "2bwjxei49i5": {
               "editing": false,
-              "id": "3rmjvny60in",
-              "key": "3rmjvny60in",
+              "id": "2bwjxei49i5",
+              "key": "2bwjxei49i5",
               "target": "page",
-              "method": "runjs",
+              "method": "setCookie",
               "params": {
-                "value": "console.log(\"-----\");"
+                "name": "foo",
+                "value": "go{{ counter() }}_{{ faker( \"hacker.verb\", \"de\" ) }} lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+                "domain": "dsheiko.github.io",
+                "path": "react-html5-form",
+                "httpOnly": "true",
+                "secure": "",
+                "sameSite": ""
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvnxyr92": {
+            "2bwjxei7i8v": {
               "editing": false,
-              "id": "3rmjvnxyr92",
-              "key": "3rmjvnxyr92",
-              "target": "page",
-              "method": "screenshot",
-              "params": {
-                "name": "Just for test",
-                "fullPage": true,
-                "omitBackground": true
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3pljvnxoll7": {
-              "editing": false,
-              "id": "3pljvnxoll7",
-              "key": "3pljvnxoll7",
-              "target": "page",
-              "method": "setViewport",
-              "params": {
-                "width": 1228,
-                "height": 1024,
-                "isMobile": true,
-                "hasTouch": true,
-                "isLandscape": true
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3pljvnxpsyu": {
-              "editing": false,
-              "id": "3pljvnxpsyu",
-              "key": "3pljvnxpsyu",
-              "target": "page",
-              "method": "setViewport",
-              "params": {
-                "width": 1280,
-                "height": 600,
-                "deviceScaleFactor": 2,
-                "isMobile": false,
-                "hasTouch": false,
-                "isLandscape": false
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3pljvnxtatc": {
-              "editing": false,
-              "id": "3pljvnxtatc",
-              "key": "3pljvnxtatc",
-              "target": "page",
-              "method": "scroll",
-              "params": {
-                "x": 0,
-                "y": 900
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvny81k5": {
-              "editing": false,
-              "id": "3rmjvny81k5",
-              "key": "3rmjvny81k5",
-              "target": "page",
-              "method": "tap",
-              "params": {
-                "x": 10,
-                "y": 10
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvnxzh1f": {
-              "editing": false,
-              "id": "3rmjvnxzh1f",
-              "key": "3rmjvnxzh1f",
+              "id": "2bwjxei7i8v",
+              "key": "2bwjxei7i8v",
               "target": "page",
               "method": "waitFor",
               "params": {
-                "value": 10
+                "value": 200
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny2an4": {
+            "2bwjxei7stt": {
               "editing": false,
-              "id": "3rmjvny2an4",
-              "key": "3rmjvny2an4",
+              "id": "2bwjxei7stt",
+              "key": "2bwjxei7stt",
+              "target": "page",
+              "method": "waitForSelector",
+              "params": {
+                "value": "body",
+                "visible": "off",
+                "hidden": "off",
+                "timeout": 30000
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxei833l": {
+              "editing": false,
+              "id": "2bwjxei833l",
+              "key": "2bwjxei833l",
+              "target": "page",
+              "method": "waitForNavigation",
+              "params": {
+                "timeout": 30000,
+                "waitUntil": "domcontentloaded"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxei8ovm": {
+              "editing": false,
+              "id": "2bwjxei8ovm",
+              "key": "2bwjxei8ovm",
+              "target": "page",
+              "method": "evaluate",
+              "params": {
+                "value": "document.body.classList.add(\"foo\");"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxei9hfq": {
+              "editing": false,
+              "id": "2bwjxei9hfq",
+              "key": "2bwjxei9hfq",
+              "target": "page",
+              "method": "runjs",
+              "params": {
+                "value": "console.log(\"HEY!!!!!\");"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxeiacfi": {
+              "editing": false,
+              "id": "2bwjxeiacfi",
+              "key": "2bwjxeiacfi",
+              "target": "page",
+              "method": "debug",
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxeias3b": {
+              "editing": false,
+              "id": "2bwjxeias3b",
+              "key": "2bwjxeias3b",
+              "target": "page",
+              "method": "assignVar",
+              "params": {
+                "name": "FOO",
+                "value": "var_{{ counter() }}"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "2bwjxeiblvz": {
+              "editing": false,
+              "id": "2bwjxeiblvz",
+              "key": "2bwjxeiblvz",
+              "target": "page",
+              "method": "assignVarRemotely",
+              "params": {
+                "name": "BAR",
+                "url": "https://dsheiko.github.io/react-html5-form/",
+                "interval": 1000,
+                "timeout": 60000,
+                "parserFn": "( val ) => {\n  return val;\n}",
+                "requestFn": "async ( url ) => {\n  return Promise.resolve( true );\n}"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxeiz9sn": {
+              "editing": false,
+              "id": "eewjxeiz9sn",
+              "key": "eewjxeiz9sn",
               "target": "page",
               "method": "assertTitle",
               "assert": {
-                "assertion": "contains",
+                "assertion": "equals",
                 "type": "string",
-                "value": "Demo"
-              },
-              "params": {},
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvny93eh": {
-              "editing": false,
-              "id": "3rmjvny93eh",
-              "key": "3rmjvny93eh",
-              "target": "page",
-              "method": "assertContent",
-              "assert": {
-                "assertion": "contains",
-                "type": "string",
-                "value": "demo"
+                "value": "React-html5-form Demo"
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             },
-            "3rmjvny9twh": {
+            "eewjxej3rqs": {
               "editing": false,
-              "id": "3rmjvny9twh",
-              "key": "3rmjvny9twh",
-              "target": "page",
-              "method": "assertNodeCount",
-              "assert": {
-                "assertion": "number",
-                "operator": "gt",
-                "value": 1
-              },
-              "params": {
-                "selector": "input"
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvnyb2oe": {
-              "editing": false,
-              "id": "3rmjvnyb2oe",
-              "key": "3rmjvnyb2oe",
-              "target": "page",
-              "method": "assertScroll",
-              "assert": {
-                "assertion": "number",
-                "operator": "lt",
-                "value": 10000
-              },
-              "params": {
-                "direction": "horizontally"
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "3j3jvnxjknu"
-            },
-            "3rmjvnyc2vd": {
-              "editing": false,
-              "id": "3rmjvnyc2vd",
-              "key": "3rmjvnyc2vd",
+              "id": "eewjxej3rqs",
+              "key": "eewjxej3rqs",
               "target": "page",
               "method": "assertUrl",
               "assert": {
@@ -411,6 +536,104 @@
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxej41jm": {
+              "editing": false,
+              "id": "eewjxej41jm",
+              "key": "eewjxej41jm",
+              "target": "page",
+              "method": "assertContent",
+              "assert": {
+                "assertion": "contains",
+                "type": "string",
+                "value": "body"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxej4mcw": {
+              "editing": false,
+              "id": "eewjxej4mcw",
+              "key": "eewjxej4mcw",
+              "target": "page",
+              "method": "assertNodeCount",
+              "assert": {
+                "assertion": "number",
+                "operator": "gt",
+                "value": 1
+              },
+              "params": {
+                "selector": "div"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxelk5cx": {
+              "editing": false,
+              "id": "eewjxelk5cx",
+              "key": "eewjxelk5cx",
+              "target": "page",
+              "method": "assertScroll",
+              "assert": {
+                "assertion": "number",
+                "operator": "lt",
+                "value": 999
+              },
+              "params": {
+                "direction": "horizontally"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "3j3jvnxjknu"
+            },
+            "eewjxelkqp0": {
+              "editing": false,
+              "id": "eewjxelkqp0",
+              "key": "eewjxelkqp0",
+              "target": "page",
+              "method": "assertVar",
+              "assert": {
+                "assertion": "contains",
+                "type": "string",
+                "value": "var"
+              },
+              "params": {
+                "name": "FOO"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
               "testId": "3j3jvnxjknu"
             }
@@ -418,44 +641,94 @@
           "disabled": false,
           "groupId": "_2"
         },
-        "_2_1": {
+        "fjsjxemjh6m": {
+          "title": "Target methods",
+          "id": "fjsjxemjh6m",
           "editing": false,
-          "id": "_2_1",
-          "key": "_2_1",
-          "title": "target methods",
+          "groupId": "_2",
+          "key": "fjsjxemjh6m",
           "commands": {
-            "_2_1_2": {
+            "fjsjxemk146": {
               "editing": false,
-              "id": "_2_1_2",
-              "key": 1,
+              "id": "fjsjxemk146",
+              "key": "fjsjxemk146",
               "target": "page",
               "method": "goto",
+              "assert": {},
               "params": {
                 "url": "https://dsheiko.github.io/react-html5-form/",
                 "timeout": 30000,
                 "waitUntil": "load"
               },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m",
+              "entity": "command"
             },
-            "3zvjvnyzmgn": {
-              "editing": true,
-              "id": "3zvjvnyzmgn",
-              "key": "3zvjvnyzmgn",
-              "target": "INPUT_CHECKBOX",
-              "method": "checkBox",
+            "fjsjxemk561": {
+              "editing": false,
+              "id": "fjsjxemk561",
+              "key": "fjsjxemk561",
+              "target": "EMAIL_INPUT",
+              "method": "type",
               "params": {
-                "checked": true
+                "value": "{{ faker( \"address.city\", \"en\" ) }}"
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "3rmjvnyk1zv": {
-              "editing": true,
-              "id": "3rmjvnyk1zv",
-              "key": "3rmjvnyk1zv",
+            "fjsjxemrkgz": {
+              "editing": false,
+              "id": "fjsjxemrkgz",
+              "key": "fjsjxemrkgz",
+              "target": "MONTH_SELECT",
+              "method": "select",
+              "params": {
+                "value": "foo"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxems5i9": {
+              "editing": false,
+              "id": "fjsjxems5i9",
+              "key": "fjsjxems5i9",
+              "target": "EMAIL_INPUT",
+              "method": "focus",
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemse10": {
+              "editing": false,
+              "id": "fjsjxemse10",
+              "key": "fjsjxemse10",
               "target": "SUBMIT_BTN",
               "method": "click",
               "params": {
@@ -465,100 +738,124 @@
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "3rmjvnykt84": {
-              "editing": true,
-              "id": "3rmjvnykt84",
-              "key": "3rmjvnykt84",
-              "target": "EMAIL_INPUT",
-              "method": "focus",
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3rmjvnyl86i": {
-              "editing": true,
-              "id": "3rmjvnyl86i",
-              "key": "3rmjvnyl86i",
-              "target": "SUBMIT_BTN",
-              "method": "hover",
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3rmjvnymbzy": {
-              "editing": true,
-              "id": "3rmjvnymbzy",
-              "key": "3rmjvnymbzy",
+            "fjsjxemss88": {
+              "editing": false,
+              "id": "fjsjxemss88",
+              "key": "fjsjxemss88",
               "target": "EMAIL_INPUT",
               "method": "reset",
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "3zvjvnyr487": {
-              "editing": true,
-              "id": "3zvjvnyr487",
-              "key": "3zvjvnyr487",
-              "target": "FORM",
-              "method": "scroll",
-              "params": {
-                "x": 100,
-                "y": 100
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3zvjvnys6xv": {
-              "editing": true,
-              "id": "3zvjvnys6xv",
-              "key": "3zvjvnys6xv",
-              "target": "DAY_SELECT",
-              "method": "select",
-              "params": {
-                "value": "10"
-              },
-              "disabled": false,
-              "failure": "",
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "lwwjpdqhytm": {
+            "fjsjxemt350": {
               "editing": false,
-              "id": "lwwjpdqhytm",
-              "key": "lwwjpdqhytm",
-              "target": "SUBMIT_BTN",
-              "method": "setAttribute",
+              "id": "fjsjxemt350",
+              "key": "fjsjxemt350",
+              "target": "INPUT_FILE",
+              "method": "upload",
               "params": {
-                "name": "disabled",
-                "value": "true"
+                "path": "D:\\UPLOAD\\dev.log"
               },
               "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "3zvjvnyvb2s": {
-              "editing": true,
-              "id": "3zvjvnyvb2s",
-              "key": "3zvjvnyvb2s",
-              "target": "SUBMIT_BTN",
+            "fjsjxemtv77": {
+              "editing": false,
+              "id": "fjsjxemtv77",
+              "key": "fjsjxemtv77",
+              "target": "EMAIL_INPUT",
               "method": "tap",
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "3zvjvnyvrxi": {
-              "editing": true,
-              "id": "3zvjvnyvrxi",
-              "key": "3zvjvnyvrxi",
+            "fjsjxemu2a5": {
+              "editing": false,
+              "id": "fjsjxemu2a5",
+              "key": "fjsjxemu2a5",
+              "target": "FORM",
+              "method": "scroll",
+              "params": {
+                "x": 10,
+                "y": 10
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemugbw": {
+              "editing": false,
+              "id": "fjsjxemugbw",
+              "key": "fjsjxemugbw",
+              "target": "EMAIL_INPUT",
+              "method": "hover",
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemut5d": {
+              "editing": false,
+              "id": "fjsjxemut5d",
+              "key": "fjsjxemut5d",
+              "target": "INPUT_CHECKBOX",
+              "method": "checkBox",
+              "params": {
+                "checked": true
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemv41r": {
+              "editing": false,
+              "id": "fjsjxemv41r",
+              "key": "fjsjxemv41r",
               "target": "EMAIL_INPUT",
               "method": "toggleClass",
               "params": {
@@ -567,184 +864,267 @@
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "bfjjnxbb475": {
+            "fjsjxemvm8t": {
               "editing": false,
-              "id": "bfjjnxbb475",
-              "key": "bfjjnxbb475",
+              "id": "fjsjxemvm8t",
+              "key": "fjsjxemvm8t",
               "target": "EMAIL_INPUT",
-              "method": "type",
+              "method": "setAttribute",
               "params": {
-                "value": "aa@aa.com"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "3zvjvnyxk5x": {
-              "editing": true,
-              "id": "3zvjvnyxk5x",
-              "key": "3zvjvnyxk5x",
-              "target": "INPUT_FILE",
-              "method": "upload",
-              "params": {
-                "path": "/home/sheiko/Sites/os/puppetry/CHANGELOG.md"
+                "name": "data-cool",
+                "value": "value"
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "bfjjnxb7hpt": {
+            "fjsjxemwmtd": {
               "editing": false,
-              "id": "bfjjnxb7hpt",
-              "key": "bfjjnxb7hpt",
+              "id": "fjsjxemwmtd",
+              "key": "fjsjxemwmtd",
               "target": "EMAIL_INPUT",
               "method": "assertAttribute",
               "assert": {
                 "assertion": "equals",
                 "type": "string",
-                "value": "email"
+                "value": "value"
               },
               "params": {
-                "name": "name"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "1s4jnwxib69": {
-              "editing": false,
-              "id": "1s4jnwxib69",
-              "key": "1s4jnwxib69",
-              "target": "SUBMIT_BTN",
-              "method": "assertBoundingBox",
-              "assert": {
-                "assertion": "boundingBox",
-                "xOperator": "gt",
-                "xValue": 0,
-                "yOperator": "gt",
-                "yValue": 0,
-                "wOperator": "gt",
-                "wValue": 0,
-                "hOperator": "gt",
-                "hValue": 0
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "bfjjnxb9cq2": {
-              "editing": false,
-              "id": "bfjjnxb9cq2",
-              "key": "bfjjnxb9cq2",
-              "target": "SUBMIT_BTN",
-              "method": "assertHtml",
-              "assert": {
-                "assertion": "equals",
-                "type": "string",
-                "value": "Submit"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "62ejnx426it": {
-              "editing": false,
-              "id": "62ejnx426it",
-              "key": "62ejnx426it",
-              "target": "SUBMIT_BTN",
-              "method": "assertMatchesSelector",
-              "assert": {
-                "assertion": "selector",
-                "value": ".btn"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "217jnwy0pvt": {
-              "editing": false,
-              "id": "217jnwy0pvt",
-              "key": "217jnwy0pvt",
-              "target": "DAY_SELECT",
-              "method": "assertPosition",
-              "assert": {
-                "assertion": "position",
-                "position": "left",
-                "target": "MONTH_SELECT"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "1s4jnwxk7kn": {
-              "editing": false,
-              "id": "1s4jnwxk7kn",
-              "key": "1s4jnwxk7kn",
-              "target": "SUBMIT_BTN",
-              "method": "assertProperty",
-              "assert": {
-                "assertion": "contains",
-                "type": "string",
-                "value": "Submit"
-              },
-              "params": {
-                "name": "innerHTML"
-              },
-              "groupId": "_2",
-              "testId": "_2_1"
-            },
-            "43gjvnz3w6a": {
-              "editing": true,
-              "id": "43gjvnz3w6a",
-              "key": "43gjvnz3w6a",
-              "target": "FORM",
-              "method": "assertScroll",
-              "assert": {
-                "assertion": "number",
-                "operator": "lt",
-                "value": 10000
-              },
-              "params": {
-                "direction": "horizontally"
+                "name": "data-cool"
               },
               "disabled": false,
               "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "4s6jnx131jn": {
+            "fjsjxemxfzq": {
               "editing": false,
-              "id": "4s6jnx131jn",
-              "key": "4s6jnx131jn",
-              "target": "SUBMIT_BTN",
-              "method": "assertStyle",
+              "id": "fjsjxemxfzq",
+              "key": "fjsjxemxfzq",
+              "target": "EMAIL_INPUT",
+              "method": "assertProperty",
               "assert": {
                 "assertion": "equals",
                 "type": "string",
-                "value": "rgb(0, 123, 255)"
+                "value": "value"
               },
               "params": {
-                "name": "border-color"
+                "name": "value"
               },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
             },
-            "4hpjnx0ej4g": {
+            "fjsjxemxwjr": {
               "editing": false,
-              "id": "4hpjnx0ej4g",
-              "key": "4hpjnx0ej4g",
+              "id": "fjsjxemxwjr",
+              "key": "fjsjxemxwjr",
               "target": "EMAIL_INPUT",
               "method": "assertVisible",
               "assert": {
                 "assertion": "boolean",
                 "value": true
               },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
               "groupId": "_2",
-              "testId": "_2_1"
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemy97h": {
+              "editing": false,
+              "id": "fjsjxemy97h",
+              "key": "fjsjxemy97h",
+              "target": "FORM",
+              "method": "assertHtml",
+              "assert": {
+                "assertion": "contains",
+                "type": "string",
+                "value": "div"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemyon5": {
+              "editing": false,
+              "id": "fjsjxemyon5",
+              "key": "fjsjxemyon5",
+              "target": "FORM",
+              "method": "assertBoundingBox",
+              "assert": {
+                "assertion": "boundingBox",
+                "xOperator": "gt",
+                "xValue": 1,
+                "yOperator": "gt",
+                "yValue": 1,
+                "wOperator": "gt",
+                "wValue": 1,
+                "hOperator": "gt",
+                "hValue": 1
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxemzfxo": {
+              "editing": false,
+              "id": "fjsjxemzfxo",
+              "key": "fjsjxemzfxo",
+              "target": "EMAIL_INPUT",
+              "method": "assertPosition",
+              "assert": {
+                "assertion": "position",
+                "position": "above",
+                "target": "VAT_INPUT"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxen02pd": {
+              "editing": false,
+              "id": "fjsjxen02pd",
+              "key": "fjsjxen02pd",
+              "target": "EMAIL_INPUT",
+              "method": "assertStyle",
+              "assert": {
+                "assertion": "equals",
+                "type": "string",
+                "value": "block"
+              },
+              "params": {
+                "name": "display"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxen0ruw": {
+              "editing": false,
+              "id": "fjsjxen0ruw",
+              "key": "fjsjxen0ruw",
+              "target": "EMAIL_INPUT",
+              "method": "assertMatchesSelector",
+              "assert": {
+                "assertion": "selector",
+                "value": ":invalid"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxen17us": {
+              "editing": false,
+              "id": "fjsjxen17us",
+              "key": "fjsjxen17us",
+              "target": "EMAIL_INPUT",
+              "method": "assertContainsClass",
+              "assert": {
+                "assertion": "boolean",
+                "value": true
+              },
+              "params": {
+                "name": ".has-error"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
+            },
+            "fjsjxen1n4u": {
+              "editing": false,
+              "id": "fjsjxen1n4u",
+              "key": "fjsjxen1n4u",
+              "target": "EMAIL_INPUT",
+              "method": "assertScroll",
+              "assert": {
+                "operator": "gt",
+                "assertion": "number",
+                "value": 10
+              },
+              "params": {
+                "direction": "horizontally"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "_2",
+              "testId": "fjsjxemjh6m"
             }
-          },
-          "groupId": "_2"
+          }
         }
       }
     }
   },
-  "puppetry": "2.0.0-aplha.2"
+  "puppetry": "2.0.0-RC.1",
+  "snippets": false
 }

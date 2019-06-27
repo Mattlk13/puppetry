@@ -35,7 +35,11 @@
         },
         "3j3jvnxjknu": {
           "key": "3j3jvnxjknu",
-          "value": false
+          "value": true
+        },
+        "fjsjxemjh6m": {
+          "key": "fjsjxemjh6m",
+          "value": true
         }
       }
     },
@@ -64,9 +68,47 @@
       }
     }
   },
-  "savedAt": 1557849089,
+  "savedAt": 1561643227,
   "modified": false,
   "lastOpenSuite": "all-methods.json",
+  "variables": {
+    "76wjxa7s2ac": {
+      "id": "76wjxa7s2ac",
+      "editing": false,
+      "name": "TEST1",
+      "value": "test1_test",
+      "env": "test",
+      "key": "76wjxa7s2ac"
+    },
+    "76wjxa7sfzc": {
+      "editing": false,
+      "id": "76wjxa7sfzc",
+      "key": "76wjxa7sfzc",
+      "name": "TEST1",
+      "value": "test1_stage",
+      "env": "stage",
+      "disabled": false,
+      "adding": false
+    },
+    "76wjxa7sfzd": {
+      "editing": false,
+      "id": "76wjxa7sfzd",
+      "key": "76wjxa7sfzd",
+      "name": "TEST1",
+      "value": "test1",
+      "env": "production",
+      "disabled": false,
+      "adding": false
+    }
+  },
+  "environments": [
+    "test",
+    "stage",
+    "production"
+  ],
+  "panels": [
+    "groups"
+  ],
   "git": {
     "initialized": false,
     "commitedAt": 1556897243,
@@ -80,9 +122,6 @@
     "credentialsUsername": "sheiko",
     "credentialsPassword": "Aninel8673"
   },
-  "panels": [
-    "groups"
-  ],
-  "puppetry": "2.0.0-aplha.2",
+  "puppetry": "2.0.0-RC.1",
   "projectDirectory": "/home/sheiko/.config/puppetry/project-demo"
 }
